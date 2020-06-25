@@ -26,19 +26,19 @@ router.post('/', async (req, res, next) => {
   res.send(lines)
 })
 
-/* GET user detail. */
+/* GET line detail. */
 router.get('/:id', async (req, res, next) => {
   var id = req.params.id
   const line = await getLineById(id)
   res.send(line)
 })
 
-/* PUT user update. */
+/* PUT line update. */
 router.put('/:id', (req, res, next) => {
   res.send('respond with a resource')
 })
 
-/* DELETE user delete. */
+/* DELETE line delete. */
 router.delete('/:id', (req, res, next) => {
   res.send('respond with a resource')
 })

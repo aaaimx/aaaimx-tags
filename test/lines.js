@@ -3,7 +3,6 @@ const server = require('../bin/www')
 const request = require('supertest')(server)
 const { getLines } = require('../controllers/lines')
 
-
 describe('Pruebas para lineas de investigación', function () {
   describe('Checar obtener lineas de investigación ', function () {
     it('Checar funcion getLines()', async () => {
