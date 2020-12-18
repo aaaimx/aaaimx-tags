@@ -4,7 +4,7 @@ function getLines () {
   return Line.find({})
 }
 
-function getLineById(id) {
+function getLineById (id) {
   return Line.findById(id)
 }
 

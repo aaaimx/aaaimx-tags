@@ -15,7 +15,6 @@ const Division = mongoose.model(
   })
 )
 
-
 module.exports = {
   Line,
   Division

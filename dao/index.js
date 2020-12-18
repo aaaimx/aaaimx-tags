@@ -8,5 +8,5 @@ mongoose.connect(uri, { useUnifiedTopology: true, useNewUrlParser: true })
 const connection = mongoose.connection
 
 module.exports = {
-    connection
+  connection
 }

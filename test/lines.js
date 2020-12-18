@@ -12,11 +12,10 @@ describe('Pruebas para lineas de investigación', function () {
     it('Checar la API /lines', done => {
       request.get('/lines').end((err, response) => {
         if (err) done(err)
-        expect(response.body).to.be.an('array') 
+        expect(response.body).to.be.an('array')
         expect(response.statusCode).to.equal(200)
         done()
       })
     })
   })
 })
-

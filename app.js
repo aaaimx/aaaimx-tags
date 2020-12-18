@@ -26,7 +26,6 @@ connection.once('open', function () {
   console.log('Conectado a MongoDB!!!')
 })
 
-
 app.use('/', indexRouter)
 app.use('/lines', linesRouter)
 
